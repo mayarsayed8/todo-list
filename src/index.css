@@ -1,0 +1,96 @@
+**{
+  box-sizing:border-box
+}
+
+body {
+ margin:0;
+ padding:0;
+ background:#EEB6C7;
+ color: #fff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+ width: 100%;
+
+}
+.text-cente{
+  text-align: center;
+  margin: 50px;
+  size: 70px
+}
+.contanier{
+  width:100%;
+  margin:20% auto;
+  background: #EEB6C7;
+
+}
+  .listItems{
+    background: #EEB6C7;
+    color:#fff;
+  
+  }
+  .listItems p{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .listItems span{
+    display:inline-block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border:0.3px solid  #525252;
+  }
+  .listItems span.title{
+    background:#ADA3A6;
+    color:white;
+  }
+  .listItems span.name,
+  form input [type=text]{
+    width:30%;
+  }
+  .listItems span.age,
+  form input [type=number]{
+    width:30%;
+  }
+  .listItems span.action,
+  form input[type=submit]{
+    width:10%;
+  }
+  .listItems span.icon{
+    color:red;
+    cursor: pointer;
+  }
+  form input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:10px;
+    background :#B8AEB1;
+    border:transparent;
+    border:0.3px solid #525252;
+    color:white;
+    padding: 10px 0px;
+    font-size: 20px;
+  }
+  .inputname{
+    width:38%;
+    color:white;
+    width:30%;
+  }
+  .inputage{
+   width:38%;
+   color:white;
+   width:30%;
+  }
+  .inputadd{
+    width:30%;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:10%;
+    font:50;
+  }
+  form input[type=submit]{
+    background:#B8AEB1;
+    border:0.3px solid  #525252 ;
+    color:white;
+    cursor: pointer;
+
+  }
